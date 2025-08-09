@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>卡片產生器</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body {
+            background-image: url('images/WEB背景.png') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <textarea id="hiddenInput" style="position: absolute; top: -9999px; left: -9999px; opacity: 0; pointer-events: none; width: 100px; height: 100px;"></textarea>
+
+    <div class="container">
+        <div class="card-area">
+            <canvas id="cardCanvas" width="1320" height="2577"></canvas>
+        </div>
+
+        <div class="controls">
+            <label>上傳圖片：
+                <input type="file" id="uploadImage" accept="image/*">
+            </label>
+            <img src="images/download_icon.png" id="downloadBtnImg" alt="下載卡片" style="margin-bottom: 15px;">
+            
+            <img src="images/share_icon.png" id="shareBtnImg" alt="分享到巴哈姆特">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

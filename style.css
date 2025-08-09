@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.card-area {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardCanvas {
+    transform-origin: center center;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    left: 5vw;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.controls label {
+    display: none;
+}
+
+#downloadBtnImg, #shareBtnImg {
+    width: 180px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: block;
+}
+
+#downloadBtnImg:hover, #shareBtnImg:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
