@@ -1,0 +1,11 @@
+<img width="1920" height="1080" alt="title" src="https://github.com/user-attachments/assets/3845b9d9-46cd-468e-8b72-4eb6e4944211" />
+
+
+網站：https://gyw9s6tpcp.github.io/tos.Card_v2/
+
+．說明．
+- 建議使用電腦版操作
+- 右邊都有寫按鍵的作用
+- 左邊兩個按鈕，製作完後可以下載圖片或是想要分享到巴哈也可以
+
+目前暫時這樣，其他功能還在想
