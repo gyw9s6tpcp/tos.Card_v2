@@ -19,10 +19,13 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    perspective: 1500px; 
 }
 
 #cardCanvas {
     transform-origin: center center;
+    transform-style: preserve-3d;
+    transition: transform 0.1s ease-out;
 }
 
 .controls {
@@ -31,20 +34,25 @@ html, body {
     left: 5vw;
     transform: translateY(-50%);
     z-index: 10;
+	
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .controls label {
     display: none;
 }
 
-#downloadBtnImg, #shareBtnImg, #resetBtnImg {
+#downloadBtnImg, #shareBtnImg, #resetBtnImg, #toggle3DBtnImg {
     width: 180px;
     cursor: pointer;
     transition: transform 0.2s;
     display: block;
 }
 
-#downloadBtnImg:hover, #shareBtnImg:hover, #resetBtnImg:hover {
+#downloadBtnImg:hover, #shareBtnImg:hover, #resetBtnImg:hover, #toggle3DBtnImg:hover {
     transform: scale(1.05);
     opacity: 0.9;
 }
