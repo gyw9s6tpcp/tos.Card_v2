@@ -1,5 +1,6 @@
 <img width="1920" height="1080" alt="title" src="https://github.com/user-attachments/assets/3845b9d9-46cd-468e-8b72-4eb6e4944211" />
 
+2025/08/14_0005 新增兩張背景、雙技能開關及優化程式碼
 
 2025/08/10_0004 新增旋轉預覽開關 按鈕
 
